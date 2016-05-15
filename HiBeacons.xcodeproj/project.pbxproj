@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2BC92D18019D6100C66D15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF2BC92B18019D6100C66D15 /* InfoPlist.strings */; };
+		CF2BC93518019D6100C66D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2BC93418019D6100C66D15 /* Images.xcassets */; };
+		CF2BC9521801A09D00C66D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2BC9511801A09D00C66D15 /* Main.storyboard */; };
+		CF96E4C71B5ED80E00285986 /* NATHiBeaconsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF96E4C61B5ED80E00285986 /* NATHiBeaconsDelegate.swift */; };
+		CF96E4CD1B5F152700285986 /* NATViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF96E4CC1B5F152700285986 /* NATViewController.swift */; };
+		CFE8B47E1B6538EC008CB9A4 /* NATOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8B47D1B6538EC008CB9A4 /* NATOperationCell.swift */; };
+		CFE8B4801B655D6B008CB9A4 /* NATOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8B47F1B655D6B008CB9A4 /* NATOperation.swift */; };
+		CFE8B4821B655DB6008CB9A4 /* NATMonitoringOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8B4811B655DB6008CB9A4 /* NATMonitoringOperation.swift */; };
+		CFE8B4841B655E1A008CB9A4 /* NATRangingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8B4831B655E1A008CB9A4 /* NATRangingOperation.swift */; };
+		CFE8B4861B655E4E008CB9A4 /* NATAdvertisingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE8B4851B655E4E008CB9A4 /* NATAdvertisingOperation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF2BC91F18019D6100C66D15 /* HiBeacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiBeacons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2BC92A18019D6100C66D15 /* HiBeacons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiBeacons-Info.plist"; sourceTree = "<group>"; };
+		CF2BC92C18019D6100C66D15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF2BC93418019D6100C66D15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF2BC9511801A09D00C66D15 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CF96E4C61B5ED80E00285986 /* NATHiBeaconsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATHiBeaconsDelegate.swift; sourceTree = "<group>"; };
+		CF96E4CC1B5F152700285986 /* NATViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATViewController.swift; sourceTree = "<group>"; };
+		CFE8B47D1B6538EC008CB9A4 /* NATOperationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATOperationCell.swift; sourceTree = "<group>"; };
+		CFE8B47F1B655D6B008CB9A4 /* NATOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATOperation.swift; sourceTree = "<group>"; };
+		CFE8B4811B655DB6008CB9A4 /* NATMonitoringOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATMonitoringOperation.swift; sourceTree = "<group>"; };
+		CFE8B4831B655E1A008CB9A4 /* NATRangingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATRangingOperation.swift; sourceTree = "<group>"; };
+		CFE8B4851B655E4E008CB9A4 /* NATAdvertisingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATAdvertisingOperation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2BC91C18019D6100C66D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2BC91618019D6100C66D15 = {
+			isa = PBXGroup;
+			children = (
+				CF2BC92818019D6100C66D15 /* HiBeacons */,
+				CF2BC92118019D6100C66D15 /* Frameworks */,
+				CF2BC92018019D6100C66D15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2BC92018019D6100C66D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2BC91F18019D6100C66D15 /* HiBeacons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2BC92118019D6100C66D15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF2BC92818019D6100C66D15 /* HiBeacons */ = {
+			isa = PBXGroup;
+			children = (
+				CF96E4C61B5ED80E00285986 /* NATHiBeaconsDelegate.swift */,
+				CF96E4CC1B5F152700285986 /* NATViewController.swift */,
+				CFE8B47D1B6538EC008CB9A4 /* NATOperationCell.swift */,
+				CFE8B4871B65AD35008CB9A4 /* NATOperation Hierarchy */,
+				CF96E4C91B5EE7DB00285986 /* Resources */,
+				CF2BC92918019D6100C66D15 /* Supporting Files */,
+			);
+			path = HiBeacons;
+			sourceTree = "<group>";
+		};
+		CF2BC92918019D6100C66D15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF2BC92A18019D6100C66D15 /* HiBeacons-Info.plist */,
+				CF2BC92B18019D6100C66D15 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF96E4C91B5EE7DB00285986 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF2BC93418019D6100C66D15 /* Images.xcassets */,
+				CF2BC9511801A09D00C66D15 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CFE8B4871B65AD35008CB9A4 /* NATOperation Hierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				CFE8B47F1B655D6B008CB9A4 /* NATOperation.swift */,
+				CFE8B4811B655DB6008CB9A4 /* NATMonitoringOperation.swift */,
+				CFE8B4851B655E4E008CB9A4 /* NATAdvertisingOperation.swift */,
+				CFE8B4831B655E1A008CB9A4 /* NATRangingOperation.swift */,
+			);
+			name = "NATOperation Hierarchy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2BC91E18019D6100C66D15 /* HiBeacons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2BC94B18019D6100C66D15 /* Build configuration list for PBXNativeTarget "HiBeacons" */;
+			buildPhases = (
+				CF2BC91B18019D6100C66D15 /* Sources */,
+				CF2BC91C18019D6100C66D15 /* Frameworks */,
+				CF2BC91D18019D6100C66D15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiBeacons;
+			productName = HiBeacons;
+			productReference = CF2BC91F18019D6100C66D15 /* HiBeacons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2BC91718019D6100C66D15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NAT;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nick Toumpelis";
+				TargetAttributes = {
+					CF2BC91E18019D6100C66D15 = {
+						DevelopmentTeam = 23D3323P45;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CF2BC91A18019D6100C66D15 /* Build configuration list for PBXProject "HiBeacons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF2BC91618019D6100C66D15;
+			productRefGroup = CF2BC92018019D6100C66D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2BC91E18019D6100C66D15 /* HiBeacons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2BC91D18019D6100C66D15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2BC92D18019D6100C66D15 /* InfoPlist.strings in Resources */,
+				CF2BC93518019D6100C66D15 /* Images.xcassets in Resources */,
+				CF2BC9521801A09D00C66D15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2BC91B18019D6100C66D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF96E4CD1B5F152700285986 /* NATViewController.swift in Sources */,
+				CFE8B4801B655D6B008CB9A4 /* NATOperation.swift in Sources */,
+				CFE8B4861B655E4E008CB9A4 /* NATAdvertisingOperation.swift in Sources */,
+				CFE8B4841B655E1A008CB9A4 /* NATRangingOperation.swift in Sources */,
+				CFE8B4821B655DB6008CB9A4 /* NATMonitoringOperation.swift in Sources */,
+				CFE8B47E1B6538EC008CB9A4 /* NATOperationCell.swift in Sources */,
+				CF96E4C71B5ED80E00285986 /* NATHiBeaconsDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF2BC92B18019D6100C66D15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2BC92C18019D6100C66D15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2BC94918019D6100C66D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF2BC94A18019D6100C66D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2BC94C18019D6100C66D15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiBeacons/HiBeacons-Prefix.pch";
+				INFOPLIST_FILE = "HiBeacons/HiBeacons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RichardHarvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF2BC94D18019D6100C66D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiBeacons/HiBeacons-Prefix.pch";
+				INFOPLIST_FILE = "HiBeacons/HiBeacons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RichardHarvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2BC91A18019D6100C66D15 /* Build configuration list for PBXProject "HiBeacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2BC94918019D6100C66D15 /* Debug */,
+				CF2BC94A18019D6100C66D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2BC94B18019D6100C66D15 /* Build configuration list for PBXNativeTarget "HiBeacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2BC94C18019D6100C66D15 /* Debug */,
+				CF2BC94D18019D6100C66D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2BC91718019D6100C66D15 /* Project object */;
+}

@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "dc0cdf0069a7efe68ceb5064e3fdafb3"
+build_time: [516498637, 866633000]
+inputs:
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons/NATViewController.swift": [9223372036854775807, 0]
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons/NATOperation.swift": [9223372036854775807, 0]
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons/NATAdvertisingOperation.swift": [9223372036854775807, 0]
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons/NATRangingOperation.swift": [9223372036854775807, 0]
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons/NATMonitoringOperation.swift": [9223372036854775807, 0]
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons/NATOperationCell.swift": [9223372036854775807, 0]
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons/NATHiBeaconsDelegate.swift": [9223372036854775807, 0]

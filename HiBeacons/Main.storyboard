@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="NATViewController" customModule="HiBeacons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fQI-hj-WaS"/>
+                        <viewControllerLayoutGuide type="bottom" id="TQk-42-Sf6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="CS9-7M-geh">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell autoresizesSubviews="NO" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OperationCell" id="ed8-eW-a13" customClass="NATOperationCell" customModule="HiBeacons" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="49.5" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ed8-eW-a13" id="8Lt-Vb-O3A">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <switch autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8Ua-PS-yVS">
+                                                    <rect key="frame" x="251" y="7" width="51" height="31"/>
+                                                </switch>
+                                                <activityIndicatorView hidden="YES" autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="PUx-Gi-ZfD">
+                                                    <rect key="frame" x="223" y="12" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" placeholder="YES" id="B3f-So-FPG"/>
+                                                        <constraint firstAttribute="width" constant="20" placeholder="YES" id="Huk-41-Lxy"/>
+                                                    </constraints>
+                                                </activityIndicatorView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="8Ua-PS-yVS" secondAttribute="trailing" constant="12" placeholder="YES" id="1tk-VO-4iB"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="PUx-Gi-ZfD" secondAttribute="trailing" constant="69" placeholder="YES" id="8Oc-yc-usy"/>
+                                                <constraint firstItem="8Ua-PS-yVS" firstAttribute="top" secondItem="8Lt-Vb-O3A" secondAttribute="topMargin" constant="-1" placeholder="YES" id="LSa-kk-qAr"/>
+                                                <constraint firstItem="PUx-Gi-ZfD" firstAttribute="top" secondItem="8Lt-Vb-O3A" secondAttribute="topMargin" constant="4" placeholder="YES" id="ZmG-mV-lgK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="accessoryView" destination="8Ua-PS-yVS" id="NLf-S0-v40"/>
+                                            <outlet property="activityIndicator" destination="PUx-Gi-ZfD" id="nW0-Zn-vwR"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="Czn-Td-yrn"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="ue4-SY-ipJ"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTO-vF-9qf">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="HiBeacons" id="dtT-Nw-fR0"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YTO-vF-9qf" firstAttribute="leading" secondItem="CS9-7M-geh" secondAttribute="leading" id="4zl-zx-S2j"/>
+                            <constraint firstItem="CS9-7M-geh" firstAttribute="top" secondItem="fQI-hj-WaS" secondAttribute="bottom" constant="44" id="DDy-X3-nyF"/>
+                            <constraint firstItem="TQk-42-Sf6" firstAttribute="top" secondItem="CS9-7M-geh" secondAttribute="bottom" id="Fe8-x4-2Zl"/>
+                            <constraint firstItem="YTO-vF-9qf" firstAttribute="trailing" secondItem="CS9-7M-geh" secondAttribute="trailing" id="IPO-G2-Cfs"/>
+                            <constraint firstItem="YTO-vF-9qf" firstAttribute="bottom" secondItem="CS9-7M-geh" secondAttribute="top" id="M1b-hE-8Mu"/>
+                            <constraint firstItem="CS9-7M-geh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="M8a-U0-Br2"/>
+                            <constraint firstAttribute="trailing" secondItem="CS9-7M-geh" secondAttribute="trailing" id="U0b-9i-hL0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="beaconTableView" destination="CS9-7M-geh" id="hb4-1u-FP4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

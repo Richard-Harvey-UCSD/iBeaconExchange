@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "187db3aef5ea17c1e5b90d963dd4b124"
+build_time: [516493690, 679045000]
+inputs:
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons WatchKit Extension/NotificationController.swift": [512840802, 0]
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons WatchKit Extension/HiBeaconsInterfaceController.swift": [512840802, 0]
+  "/Users/kennethharvey/Desktop/HiBeacons-swift/HiBeacons WatchKit Extension/GlanceController.swift": [512840802, 0]
